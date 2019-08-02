@@ -25,7 +25,7 @@ python script.py
 echo -e "\n\nBASH: Push to github";
 cd ../;
 git add .;
-git commit -m "<test run>" 1>>/dev/null; # Change the commit message in quotations 
+git commit -m "A clever commit message" 1>>/dev/null; # Change the commit message in quotations 
 git push origin master 2>>/dev/null;
 
 
