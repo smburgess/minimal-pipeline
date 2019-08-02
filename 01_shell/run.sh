@@ -22,16 +22,15 @@ python script.py
 
 
 ### Upload changes to repo
-#echo -e "\n\nBASH: Push to github";
-#cd ../;
-#git add .;
-#git commit -m "<new run>" 1>>/dev/null; # Change the commit message in quotations 
-#git push origin master 2>>/dev/null;
+echo -e "\n\nBASH: Push to github";
+cd ../;
+git add .;
+git commit -m "<test run>" 1>>/dev/null; # Change the commit message in quotations 
+git push origin master 2>>/dev/null;
 
 
-### Go back to the 
-cd ../01_shell
-#cd ../01_shell
+### Go back to the shell folder
+cd 01_shell
 
 
 ### Print how long it took to run this script
