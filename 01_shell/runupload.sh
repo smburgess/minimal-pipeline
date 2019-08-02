@@ -27,7 +27,7 @@ done;
 echo -e "\n\nBASH: Push to github";
 cd ../;
 git add .;
-git commit -m "An even clever-er commit message" 1>>/dev/null; # Change the commit message in quotations 
+git commit -m "Sean's upload!" 1>>/dev/null; # Change the commit message in quotations 
 git push origin master 2>>/dev/null;
 
 
