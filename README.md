@@ -1,10 +1,11 @@
 # Minimal pipeline
 
-This minimal pipeline tool takes an [input data file](02_input/input.csv) and processes it, using a [Python script](03_scripts/script.py), to produce an [output data file](04_output/output.csv).
+This minimal pipeline tool takes an [input data file](02_input/input.csv) and processes it, using a [Python script](03_scripts/script.py), to produce an [output data file](04_output/output.csv). The current script calculates the mean, standard deviation, and number of data points in the input data file. 
 
-The current script calculates the mean, standard deviation, and number of data points in the input data file. The whole system can be run by entering a single command, e.g. `./runlocal.sh`, see below. Even if many more scripts are 
+The whole system can be run by entering a single command, e.g. `./runlocal.sh`, see below. This command will run all the python scripts you have made and regenerate the output. So it should still be simple to run everything even if you add more inputs and analysis scripts. 
 
 ## Minimal pipeline
+
 * Open a terminal and navigate (using the `ls` and `cd` commands) to the place on your computer :computer: that you want to keep the folder.
 * Clone this repository by entering the following into the terminal:
 ```bash
