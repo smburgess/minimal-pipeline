@@ -18,7 +18,9 @@ find . -type f ! \( -name '*.' \) -exec rm {} \;
 ### Run scripts
 echo -e "\n\nBASH: Run scripts";
 cd ../03_scripts
-python script.py
+for a in *.py;
+do python $a;
+done;
 
 
 ### Go back to the shell folder
